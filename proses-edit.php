@@ -27,10 +27,10 @@ if(isset($_POST['simpan'])){
     // apakah query simpan berhasil?
     if( $query ) {
         // kalau berhasil alihkan ke halaman index.php dengan status=sukses
-        header('Location: index.php?status=suksesedit');
+        header('Location: list-siswa.php?status=suksesedit');
     } else {
         // kalau gagal alihkan ke halaman indek.php dengan status=gagal
-        header('Location: index.php?status=gagal');
+        header('Location: list-siswa.php?status=gagal');
     }
     }
 

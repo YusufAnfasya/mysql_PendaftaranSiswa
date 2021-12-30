@@ -111,10 +111,11 @@
                     <input type="text" name="sekolah_asal" placeholder="nama sekolah" value="<?php echo $siswa['sekolah_asal'] ?>" />
                  <p>
                     <label for="foto">Foto :</label>  <br>
-                    <input type="file" name="foto" id="foto"/>
+                    <input type="file" name="foto" id="foto" value="<?php echo $siswa['foto'] ?>"/>
                 </p>
                 <p>
-                    <input type="submit" value="Simpan" name="simpan" value="<?php echo $siswa['foto'] ?>"/>
+                    <input type="submit" value="Simpan" name="simpan" />
+                    <a href="list-siswa.php"><button type="button" class="button-70">Batal</button></a>
                 </p>
                 
             </div>

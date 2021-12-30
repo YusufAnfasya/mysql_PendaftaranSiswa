@@ -85,6 +85,7 @@
 			</p>
             <p>
 				<input class="submit" type="submit" value="Daftar" name="daftar" />
+                <a href="list-siswa.php"><button type="button" class="button-70">Batal</button></a>
 			</p>
             </fieldset>
  
