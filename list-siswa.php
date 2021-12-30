@@ -149,6 +149,7 @@
     <thead>
         <tr>
             <th>No</th>
+            <th>Foto</th>
             <th>Nama</th>
             <th>Alamat</th>
             <th>Jenis Kelamin</th>
@@ -167,6 +168,7 @@
             echo "<tr>";
  
             echo "<td>".$siswa['id']."</td>";
+            echo "<td><img src='images/".$siswa['foto']."' width='100' height='100'></td>";
             echo "<td>".$siswa['nama']."</td>";
             echo "<td>".$siswa['alamat']."</td>";
             echo "<td>".$siswa['jenis_kelamin']."</td>";

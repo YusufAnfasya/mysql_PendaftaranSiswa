@@ -43,7 +43,7 @@
     <header>
         </header>
         <div class="container">
-            <form action="proses-pendaftaran.php" method="POST">
+            <form action="proses-pendaftaran.php" method="POST"  enctype="multipart/form-data">
                 <center><h3>Formulir Pendaftaran Siswa Baru</h3>   </center>
                 
             <fieldset>
@@ -73,14 +73,19 @@
                     <option class="dropdown-item">Atheis</option>
                 </select>
             </p>
+
             <p>
                 <label for="sekolah_asal">Sekolah Asal: </label>
                 <input type="text" name="sekolah_asal" placeholder="Nama sekolah Asal" class="form-control"/>
             </p>
-            <center>
-                <input type="submit" value="Daftar" name="daftar" class="btn btn-success" />
-                <a href="index.php" class="btn btn-danger">Batal</a>
-            </center>
+
+            <p>
+				<label for="foto">Foto :</label>
+                <input name="foto" type="file" id="foto">
+			</p>
+            <p>
+				<input class="submit" type="submit" value="Daftar" name="daftar" />
+			</p>
             </fieldset>
  
         </form>
